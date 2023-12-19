@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --text-color: #fdfeff
+  --text-color: #fdfeff;
+  --yellow-color: #fec544;
 }
 
 body {
   background-image: url("assets/crop-stars.jpg");
   background-size: cover;
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   color: var(--text-color);
  }
+

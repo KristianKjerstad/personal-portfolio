@@ -8,7 +8,6 @@ import stars from "./assets/stars.jpg"
 console.log(stars)
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-
     <App />
   </React.StrictMode>,
 )
