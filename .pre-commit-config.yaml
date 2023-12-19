@@ -20,11 +20,11 @@ repos:
             files: ^src/.*\.(js|js|ts|tsx|css|html|json)$
             args: ['--config=.prettierrc.json', '--ignore-path=.prettierignore']
 
-    # - repo: https://github.com/pre-commit/mirrors-eslint
-    #   rev: v8.49.0
-    #   hooks:
-    #     - id: eslint
-    #       name: run eslint
-    #       files: ^frontend/src/.*\.(vue|js|js|css|html|json)$
-    #       types: [file]
-    #       args: ["--config=frontend/.eslintrc.js", "--ignore-path=frontend/.eslintignore"]
+    - repo: https://github.com/pre-commit/mirrors-eslint
+      rev: v8.49.0
+      hooks:
+          - id: eslint
+            name: run eslint
+            files: ^src/.*\.(js|js|ts|tsx|html|json)$
+            types: [file]
+            args: ['--config=.eslintrc.cjs', '--ignore-path=.eslintignore']

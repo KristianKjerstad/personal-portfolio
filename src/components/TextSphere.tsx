@@ -35,7 +35,7 @@ const TextShpere = () => {
                 keep: true,
             }
 
-            // @ts-ignore
+            // @ts-expect-error invalid type
             TagCloud(container, texts, options)
         }
     }, [])
