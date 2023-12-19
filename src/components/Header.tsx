@@ -5,7 +5,7 @@ import "../Header.css"
 export const Header = () => {
 
 
-    return <div>
+    return <div className='pb-16'>
         <img  src={logo} width="200" height="150"></img>
         <Menu right color="yellow">
         <a id="home" className="menu-item" href="/">Home</a>
