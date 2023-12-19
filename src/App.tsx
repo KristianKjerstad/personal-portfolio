@@ -5,6 +5,7 @@ import { Header } from './components/Header'
 import "./App.css"
 import { SectionDivider } from './components/SectionDivider'
 import { AboutMe } from './components/AboutMe'
+import TextShpere from './components/TextSphere'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,8 @@ function App() {
     <SectionDivider title='About me' />
     <AboutMe />
     <SectionDivider title='Skills' />
+    <TextShpere />
+    <p className='opacity-60 text-center pt-8'>Copyright @ {new Date().getFullYear()}. Design by Kristian Kjerstad</p>
     </div>  )
 }
 
