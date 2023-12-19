@@ -1,0 +1,7 @@
+.divider {
+    /* width: 100%; */
+    height: 3px; /* Adjust the thickness of the line as needed */
+    margin: 12px auto;
+    background: linear-gradient(to right, #333 25%, var(--yellow-color) 25%, var(--yellow-color) 75%, #333 75%);
+    max-width: 250px;
+  }
