@@ -24,10 +24,10 @@
 
 /* Change color of each text in sphere on hover   */
 .tagcloud--item {
-    color: var(--text-color)
+    color: var(--text-color);
     /* text-transform: uppercase; */
 }
 
 .tagcloud--item:hover {
-    color: var(--yellow-color)
+    color: var(--yellow-color);
 }

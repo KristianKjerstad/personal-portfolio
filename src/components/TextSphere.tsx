@@ -1,53 +1,53 @@
-import { useEffect } from "react";
-import "../TextSphere.css";
+import { useEffect } from 'react'
+import '../TextSphere.css'
 
 // Importing TagCloud package
-import TagCloud from "TagCloud";
+import TagCloud from 'TagCloud'
 
 const TextShpere = () => {
-  // Animation settings for Text Cloud
-  useEffect(() => {
-    return () => {
-      const container = ".tagcloud";
-      const texts = [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Vue",
-        "Git",
-        "Python",
-        "Django",
-        "FastAPI",
-        "VS Code",
-        "Authentication",
-        "DevOps",
-        "CI/CD",
-        "Databases",
-        "Azure"
-      ];
+    // Animation settings for Text Cloud
+    useEffect(() => {
+        return () => {
+            const container = '.tagcloud'
+            const texts = [
+                'HTML',
+                'CSS',
+                'JavaScript',
+                'TypeScript',
+                'React',
+                'Vue',
+                'Git',
+                'Python',
+                'Django',
+                'FastAPI',
+                'VS Code',
+                'Authentication',
+                'DevOps',
+                'CI/CD',
+                'Databases',
+                'Azure',
+            ]
 
-      const options = {
-        radius: 180,
-        maxSpeed: "normal",
-        initSpeed: "normal",
-        keep: true,
-      };
+            const options = {
+                radius: 180,
+                maxSpeed: 'normal',
+                initSpeed: 'normal',
+                keep: true,
+            }
 
-      // @ts-ignore
-      TagCloud(container, texts, options);
-    };
-  }, []);
+            // @ts-ignore
+            TagCloud(container, texts, options)
+        }
+    }, [])
 
-  return (
-    <>
-      <div className="text-shpere">
-        {/* span tag className must be "tagcloud"  */}
-        <span className="tagcloud"></span>
-      </div>
-    </>
-  );
-};
+    return (
+        <>
+            <div className="text-shpere">
+                {/* span tag className must be "tagcloud"  */}
+                <span className="tagcloud"></span>
+            </div>
+        </>
+    )
+}
 
-export default TextShpere;
+export default TextShpere
