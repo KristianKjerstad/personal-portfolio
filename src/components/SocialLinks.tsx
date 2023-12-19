@@ -20,7 +20,11 @@ export const SocialLinks = () => {
             >
                 <FaGithub size={iconSize} />
             </a>
-            <a href="https://vg.no" target="_blank" className="Homepage">
+            <a
+                href="https://kristiankjerstad.no"
+                target="_blank"
+                className="Homepage"
+            >
                 <TbWorld size={iconSize} />
             </a>
         </div>
