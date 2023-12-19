@@ -1,5 +1,4 @@
-import React from "react";
-import { FaHome,FaGithub, FaLinkedin, FaGithubSquare, FaLanguage, FaCalendarDay } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 
 

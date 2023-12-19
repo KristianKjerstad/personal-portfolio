@@ -8,7 +8,7 @@ export const Header = () => {
 
     return <div className='pb-16'>
         <img  src={logo} width="200" height="150"></img>
-        <Menu right color="yellow">
+        <Menu right>
         <div>
         <HashLink smooth to="/path#home">
   Home

@@ -1,17 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { Header } from './components/Header'
-// import viteLogo from '/vite.svg'
 import "./App.css"
 import { SectionDivider } from './components/SectionDivider'
 import { AboutMe } from './components/AboutMe'
 import TextShpere from './components/TextSphere'
-import { HashLink } from 'react-router-hash-link';
 import { ProjectExperience } from './components/ProjectExperience'
 import { SocialLinks } from './components/SocialLinks'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <div id="home" className="p-4">

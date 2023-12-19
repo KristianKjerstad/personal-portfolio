@@ -1,5 +1,3 @@
-// import "../SectionDivider.css"
-import { AiFillCopyrightCircle } from "react-icons/ai";
 import { FaHome, FaLanguage, FaCalendarDay } from "react-icons/fa";
 import profilePicture from '../assets/profile.jpeg'
 import { MdWork } from "react-icons/md";

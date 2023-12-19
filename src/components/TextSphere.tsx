@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "../TextSphere.css";
 
 // Importing TagCloud package
@@ -35,6 +35,7 @@ const TextShpere = () => {
         keep: true,
       };
 
+      // @ts-ignore
       TagCloud(container, texts, options);
     };
   }, []);
