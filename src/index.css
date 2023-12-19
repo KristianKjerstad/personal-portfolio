@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --text-color: #fdfeff
+}
 
+body {
+  background-image: url("assets/crop-stars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  color: var(--text-color);
+ }
