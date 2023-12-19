@@ -1,0 +1,27 @@
+.card {
+  width: 80vw;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+  background-color: #373737; 
+}
+
+.image-container {
+  background-color: #f1f1f1;
+  /* padding: 10px; */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  /* border-radius: 10px; */
+  object-fit: cover;
+  background-color: #373737; 
+}
+
+.skills-container {
+  padding: 10px;
+}

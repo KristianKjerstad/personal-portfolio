@@ -7,6 +7,7 @@ import { SectionDivider } from './components/SectionDivider'
 import { AboutMe } from './components/AboutMe'
 import TextShpere from './components/TextSphere'
 import { HashLink } from 'react-router-hash-link';
+import { ProjectExperience } from './components/ProjectExperience'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,10 @@ function App() {
     <SectionDivider title='Skills' />
     <div id="skills"></div>
     <TextShpere />
+
+    <SectionDivider title="Project Experience" />
+    <ProjectExperience />
+
     <p className='opacity-60 text-center pt-8'>Copyright @ {new Date().getFullYear()}. Design by Kristian Kjerstad</p>
     </div>  )
 }
