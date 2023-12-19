@@ -8,6 +8,7 @@ import { AboutMe } from './components/AboutMe'
 import TextShpere from './components/TextSphere'
 import { HashLink } from 'react-router-hash-link';
 import { ProjectExperience } from './components/ProjectExperience'
+import { SocialLinks } from './components/SocialLinks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +34,9 @@ function App() {
 
     <SectionDivider title="Project Experience" />
     <ProjectExperience />
+
+    <SectionDivider title="Social channels" />
+    <SocialLinks />
 
     <p className='opacity-60 text-center pt-8'>Copyright @ {new Date().getFullYear()}. Design by Kristian Kjerstad</p>
     </div>  )

@@ -24,7 +24,7 @@
 
 /* Change color of each text in sphere on hover   */
 .tagcloud--item {
-    color: var(--yellow-color); /*#00ffffff;*/
+    color: var(--text-color)
     /* text-transform: uppercase; */
 }
 
