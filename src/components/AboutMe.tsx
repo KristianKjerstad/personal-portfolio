@@ -2,18 +2,24 @@ import { FaHome, FaLanguage, FaCalendarDay } from 'react-icons/fa'
 import profilePicture from '../assets/profile.jpeg'
 import { MdWork } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
+import React, { FC } from 'react'
+
+type InfoItem = {
+    text: string
+    icon: React.JSX.Element
+}
+
 export const AboutMe = () => {
     const paragraphStyle = 'opacity-70 pt-4'
-    const items = [
-        { id: 1, text: 'Trondheim, Norway', icon: <FaHome /> },
-        { id: 2, text: 'Norwegian, English', icon: <FaLanguage /> },
+    const items: InfoItem[] = [
+        { text: 'Trondheim, Norway', icon: <FaHome /> },
+        { text: 'Norwegian, English', icon: <FaLanguage /> },
         {
-            id: 3,
             text: 'Senior IT consultant at Brilliant AS',
             icon: <MdWork />,
         },
-        { id: 4, text: 'kristian@example.no', icon: <MdEmail /> },
-        { id: 5, text: '20th April, 1996', icon: <FaCalendarDay /> },
+        { text: 'kristian@example.no', icon: <MdEmail /> },
+        { text: '20th April, 1996', icon: <FaCalendarDay /> },
     ]
 
     return (
@@ -25,8 +31,8 @@ export const AboutMe = () => {
             </h2>
             <h3 className="text-4xl">Web developer</h3>
             <ul className="pb-4 pt-4">
-                {items.map((item) => (
-                    <li key={item.id} className="flex items-center mb-2">
+                {items.map((item, index) => (
+                    <li key={index} className="flex items-center mb-2">
                         {item.icon}
                         <span className="ml-4">{item.text}</span>
                     </li>

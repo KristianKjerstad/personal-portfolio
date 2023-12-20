@@ -2,7 +2,7 @@ import '../styles/ProjectCard.css'
 import { Project } from './ProjectExperience'
 
 const ProjectCard = (props: Project) => {
-    const { projectName, imageSrc, skills, link } = props
+    const { name: projectName, imageSource: imageSrc, skills, link } = props
     return (
         <div className="card">
             <div className="image-container">

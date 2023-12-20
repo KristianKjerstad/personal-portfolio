@@ -3,8 +3,8 @@ import LanNaProjectImage from '../assets/lan-na-project.jpeg'
 import CalvinStudioProject from '../assets/cs-project.jpeg'
 
 export type Project = {
-    projectName: string
-    imageSrc: string
+    name: string
+    imageSource: string
     skills: string[]
     link: string
 }
@@ -12,15 +12,15 @@ export type Project = {
 export const ProjectExperience = () => {
     const projects: Project[] = [
         {
-            projectName: 'Website for Lan Na',
+            name: 'Website for Lan Na',
             skills: ['Web hosting', 'Wordpress', 'Design'],
-            imageSrc: LanNaProjectImage,
+            imageSource: LanNaProjectImage,
             link: '',
         },
         {
-            projectName: 'Website for Calvin Studio',
+            name: 'Website for Calvin Studio',
             skills: ['Web hosting', 'Wordpress', 'Design'],
-            imageSrc: CalvinStudioProject,
+            imageSource: CalvinStudioProject,
             link: 'https://calvinstudio.no',
         },
     ]
@@ -31,9 +31,9 @@ export const ProjectExperience = () => {
                 return (
                     <ProjectCard
                         link={project.link}
-                        projectName={project.projectName}
+                        name={project.name}
                         skills={project.skills}
-                        imageSrc={project.imageSrc}
+                        imageSource={project.imageSource}
                     />
                 )
             })}
