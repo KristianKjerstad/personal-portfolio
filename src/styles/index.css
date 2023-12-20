@@ -5,6 +5,9 @@
 :root {
     --text-color: #fdfeff;
     --yellow-color: #fec544;
+    --dark-gray: #373737;
+    --small-px: 8px;
+    --medium-px: 12px;
 }
 
 body {
@@ -21,7 +24,7 @@ body {
 /* CSS for the button */
 button {
     display: inline-block;
-    padding: 10px 40px;
+    padding: var(--small-px) 40px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -37,6 +40,6 @@ button {
 
 /* Hover effect */
 button:hover {
-    background-color: #000000; /* Hover background color */
+    background-color: black; /* Hover background color */
     color: var(--yellow-color); /* Hover text color */
 }
