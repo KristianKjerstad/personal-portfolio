@@ -2,7 +2,7 @@ import { FaHome, FaLanguage, FaCalendarDay } from 'react-icons/fa'
 import profilePicture from '../assets/profile.jpeg'
 import { MdWork } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
-import React, { FC } from 'react'
+import React from 'react'
 
 type InfoItem = {
     text: string
