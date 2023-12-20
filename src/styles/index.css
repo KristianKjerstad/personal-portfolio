@@ -8,12 +8,13 @@
     --dark-gray: #373737;
     --small-px: 8px;
     --medium-px: 12px;
+    --black: #000000;
 }
 
 body {
-    background-image: url('assets/crop-stars-bluetone.jpeg');
+    background-image: url('../assets/crop-stars-bluetone.jpeg');
     background-size: cover;
-    background-color: black;
+    background-color: var(--black);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--text-color);
@@ -30,9 +31,9 @@ button {
     text-decoration: none;
     cursor: pointer;
     border-radius: 30px;
-    color: #000000; /* Black text color */
-    background-color: var(--yellow-color); /* Background color */
-    border: 2px solid var(--yellow-color); /* Border color (same as background for a seamless look) */
+    color: var(--black);
+    background-color: var(--yellow-color);
+    border: 2px solid var(--yellow-color);
     transition:
         background-color 0.3s ease,
         color 0.3s ease;
@@ -40,6 +41,6 @@ button {
 
 /* Hover effect */
 button:hover {
-    background-color: black; /* Hover background color */
+    background-color: var(--black); /* Hover background color */
     color: var(--yellow-color); /* Hover text color */
 }
