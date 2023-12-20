@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import '../TextSphere.css'
+import '../styles/TextSphere.css'
 
 // Importing TagCloud package
 import TagCloud from 'TagCloud'

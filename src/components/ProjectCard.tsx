@@ -1,4 +1,4 @@
-import '../ProjectCard.css'
+import '../styles/ProjectCard.css'
 import { Project } from './ProjectExperience'
 
 const ProjectCard = (props: Project) => {

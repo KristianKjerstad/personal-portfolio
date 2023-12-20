@@ -1,4 +1,4 @@
-import '../SectionDivider.css'
+import '../styles/SectionDivider.css'
 
 export const SectionDivider = (props: { title: string }) => {
     const { title } = props

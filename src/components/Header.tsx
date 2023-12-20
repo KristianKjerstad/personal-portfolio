@@ -1,7 +1,7 @@
 import logo from '../assets/logo-white.png'
 import { slide as Menu } from 'react-burger-menu'
 import { HashLink } from 'react-router-hash-link'
-import '../Header.css'
+import '../styles/Header.css'
 export const Header = () => {
     return (
         <div className="pb-16">

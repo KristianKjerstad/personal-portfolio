@@ -1,5 +1,5 @@
 import { Header } from './components/Header'
-import './App.css'
+import './styles/App.css'
 import { SectionDivider } from './components/SectionDivider'
 import { AboutMe } from './components/AboutMe'
 import TextShpere from './components/TextSphere'
