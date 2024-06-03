@@ -5,6 +5,21 @@ import { AboutMe } from './components/AboutMe'
 import TextShpere from './components/TextSphere'
 import { ProjectExperience } from './components/ProjectExperience'
 import { SocialLinks } from './components/SocialLinks'
+import { Link } from 'react-router-dom'
+
+const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
+    return (
+        <Link
+            to="#"
+            onClick={(e) => {
+                window.location.href = `mailto:${email}`
+                e.preventDefault()
+            }}
+        >
+            <button>{label}</button>
+        </Link>
+    )
+}
 
 function App() {
     return (
@@ -14,7 +29,10 @@ function App() {
 
             <h1 className="text-8xl pb-4 font-semibold">Kristian Kjerstad</h1>
             <h2 className="text-4xl pb-4 opacity-70">Web developer</h2>
-            <button>Contact</button>
+            <ButtonMailto
+                email="kristian.kjerstad@brilliant.no"
+                label="Contact me"
+            />
             <SectionDivider title="About me" />
             <div id="about-me"></div>
             <AboutMe />
