@@ -1,10 +1,19 @@
 import '../styles/ProjectCard.css'
 import { Project } from './ProjectExperience'
+import { useNavigate } from 'react-router-dom'
 
 const ProjectCard = (props: Project) => {
     const { name: projectName, imageSource: imageSrc, skills, link } = props
+    const navigate = useNavigate()
+
     return (
-        <div className="card">
+        <div
+            className="card cursor-pointer"
+            onClick={() => {
+                console.log('test')
+                navigate(`/projects/${projectName}`)
+            }}
+        >
             <div className="image-container">
                 <img src={imageSrc} alt="Project" className="image" />
             </div>

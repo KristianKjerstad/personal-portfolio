@@ -1,36 +1,22 @@
 import ProjectCard from './ProjectCard'
-import LanNaProjectImage from '../assets/lan-na-project.jpeg'
-import CalvinStudioProject from '../assets/cs-project.jpeg'
+import projects from '../data/project-data.json'
 
 export type Project = {
     name: string
     imageSource: string
     skills: string[]
+    description?: string
     link: string
 }
 
 export const ProjectExperience = () => {
-    const projects: Project[] = [
-        {
-            name: 'Website for Lan Na',
-            skills: ['Web hosting', 'Wordpress', 'Design'],
-            imageSource: LanNaProjectImage,
-            link: 'https://lan-na.no',
-        },
-        {
-            name: 'Website for Calvin Studio',
-            skills: ['Web hosting', 'Wordpress', 'Design'],
-            imageSource: CalvinStudioProject,
-            link: 'https://calvinstudio.no',
-        },
-    ]
-
     return (
         <div className="lg:grid grid-cols-3 gap-4">
             {projects.map((project) => {
                 return (
                     <div className="flex justify-center">
                         <ProjectCard
+                            key={project.name}
                             link={project.link}
                             name={project.name}
                             skills={project.skills}

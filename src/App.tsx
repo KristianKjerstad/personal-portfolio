@@ -25,7 +25,7 @@ function App() {
     return (
         <div id="home" className="p-4 pl-8 pr-8 pb-12">
             <Header />
-            <h3 className="text-3xl pb-2 color-yellow ">Hello, I'm</h3>
+            <h3 className="text-3xl pb-2 color-yellow">Hello, I'm</h3>
 
             <h1 className="text-8xl pb-4 font-semibold">Kristian Kjerstad</h1>
             <h2 className="text-4xl pb-4 opacity-70">Web developer</h2>

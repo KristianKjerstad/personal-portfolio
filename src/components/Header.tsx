@@ -2,28 +2,36 @@ import logo from '../assets/logo-white.png'
 import { slide as Menu } from 'react-burger-menu'
 import { HashLink } from 'react-router-hash-link'
 import '../styles/Header.css'
+import { useNavigate } from 'react-router-dom'
 export const Header = () => {
+    const navigate = useNavigate()
     return (
         <div className="pb-16">
-            <img src={logo} width="200" height="150"></img>
+            <img
+                className="cursor-pointer"
+                src={logo}
+                width="200"
+                height="150"
+                onClick={() => navigate('/')}
+            ></img>
             <Menu right>
                 <div>
-                    <HashLink smooth to="/path#home">
+                    <HashLink smooth to="/#home">
                         Home
                     </HashLink>
                 </div>
                 <div>
-                    <HashLink smooth to="/path#about-me">
+                    <HashLink smooth to="/#about-me">
                         About me
                     </HashLink>
                 </div>
                 <div>
-                    <HashLink smooth to="/path#skills">
+                    <HashLink smooth to="/#skills">
                         Skills
                     </HashLink>
                 </div>
                 <div>
-                    <HashLink smooth to="/path#Social">
+                    <HashLink smooth to="/#Social">
                         Social channels
                     </HashLink>
                 </div>
