@@ -21,7 +21,7 @@ export const SocialLinks = () => {
                 <FaGithub size={iconSize} />
             </a>
             <a
-                href="https://kristiankjerstad.no"
+                href="https://kristiankjerstad.github.io/personal-portfolio/"
                 target="_blank"
                 className="Homepage"
             >

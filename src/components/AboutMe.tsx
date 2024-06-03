@@ -10,7 +10,7 @@ type InfoItem = {
 }
 
 export const AboutMe = () => {
-    const paragraphStyle = 'opacity-70 pt-4'
+    const paragraphStyle = 'opacity-70 pt-4 text-xl'
     const items: InfoItem[] = [
         { text: 'Trondheim, Norway', icon: <FaHome /> },
         { text: 'Norwegian, English', icon: <FaLanguage /> },
@@ -25,16 +25,17 @@ export const AboutMe = () => {
     return (
         <div>
             {' '}
-            <img src={profilePicture}></img>
-            <h2 className="text-4xl pt-16 pb-2">
-                Hi there! I'm Kristian Kjerstad
-            </h2>
+            <img
+                className="m-auto object-fill h-96 w-96"
+                src={profilePicture}
+            ></img>
+            <h2 className="text-4xl pt-16 pb-2">Hi there! I'm Kristian</h2>
             <h3 className="text-4xl">Web developer</h3>
-            <ul className="pb-4 pt-4">
+            <ul className="pb-4 pt-12">
                 {items.map((item, index) => (
                     <li key={index} className="flex items-center mb-2">
                         {item.icon}
-                        <span className="ml-4">{item.text}</span>
+                        <span className="ml-4 text-l">{item.text}</span>
                     </li>
                 ))}
             </ul>

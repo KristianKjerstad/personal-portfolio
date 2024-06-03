@@ -15,7 +15,7 @@ export const ProjectExperience = () => {
             name: 'Website for Lan Na',
             skills: ['Web hosting', 'Wordpress', 'Design'],
             imageSource: LanNaProjectImage,
-            link: '',
+            link: 'https://lan-na.no',
         },
         {
             name: 'Website for Calvin Studio',
@@ -26,15 +26,17 @@ export const ProjectExperience = () => {
     ]
 
     return (
-        <div>
+        <div className="lg:grid grid-cols-3 gap-4">
             {projects.map((project) => {
                 return (
-                    <ProjectCard
-                        link={project.link}
-                        name={project.name}
-                        skills={project.skills}
-                        imageSource={project.imageSource}
-                    />
+                    <div className="flex justify-center">
+                        <ProjectCard
+                            link={project.link}
+                            name={project.name}
+                            skills={project.skills}
+                            imageSource={project.imageSource}
+                        />
+                    </div>
                 )
             })}
         </div>

@@ -22,6 +22,11 @@ export const Header = () => {
                         Skills
                     </HashLink>
                 </div>
+                <div>
+                    <HashLink smooth to="/path#Social">
+                        Social channels
+                    </HashLink>
+                </div>
                 {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
             </Menu>
         </div>

@@ -23,9 +23,9 @@ const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
 
 function App() {
     return (
-        <div id="home" className="p-4">
+        <div id="home" className="p-4 pl-8 pr-8 pb-12">
             <Header />
-            <h3 className="text-3xl pb-2 color-yellow">Hello, I'm</h3>
+            <h3 className="text-3xl pb-2 color-yellow ">Hello, I'm</h3>
 
             <h1 className="text-8xl pb-4 font-semibold">Kristian Kjerstad</h1>
             <h2 className="text-4xl pb-4 opacity-70">Web developer</h2>
@@ -33,16 +33,16 @@ function App() {
                 email="kristian.kjerstad@brilliant.no"
                 label="Contact me"
             />
-            <SectionDivider title="About me" />
             <div id="about-me"></div>
+            <SectionDivider title="About me" />
             <AboutMe />
-            <SectionDivider title="Skills" />
             <div id="skills"></div>
+            <SectionDivider title="Skills" />
             <TextShpere />
 
             <SectionDivider title="Project Experience" />
             <ProjectExperience />
-
+            <div id="Social"></div>
             <SectionDivider title="Social channels" />
             <SocialLinks />
 
