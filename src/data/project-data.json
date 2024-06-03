@@ -2,14 +2,14 @@
     {
         "name": "Website for Lan Na",
         "skills": ["Web hosting", "Wordpress", "Design"],
-        "imageSource": "/personal-portfolio/src/assets/lan-na-project.jpeg",
+        "imageSource": "/personal-portfolio/assets/lan-na-project.jpeg",
         "description": "Lan Na Thai Restaurant is a vibrant dining destination in Trondheim, Norway, offering an authentic Thai culinary experience. In 2021, the restaurant launched a project to develop a visually impactful website that would enhance its online presence, attract new customers, and provide essential information to its patrons. The restaurant website successfully established the restaurant’s online presence, making it easier for potential customers to find and engage with the restaurant. The visually striking design and user-friendly interface enhanced the overall user experience, while the integration of Google Analytics provided valuable insights for marketing strategies. The project met all its objectives, leading to increased traffic, higher customer engagement, and a boost in reservations through the online contact form.",
         "link": "https://lan-na.no"
     },
     {
         "name": "Website for Calvin Studio",
         "skills": ["Web hosting", "Wordpress", "Design"],
-        "imageSource": "/personal-portfolio/src/assets/cs-project.jpeg",
+        "imageSource": "/personal-portfolio/assets/cs-project.jpeg",
         "description": "Calvin Studio is a premier hair salon in the vibrant city of Trondheim, Norway. The salon aims to provide top-tier hair care and styling services, combining artistic flair with professional expertise. In 2022, the salon embarked on a project to create an engaging and visually stunning website that would enhance its online presence, attract new clients, and provide valuable information to existing customers. The Calvin Studio website successfully established the salon's online presence, making it easier for potential clients to find and engage with the salon. The visually appealing design and user-friendly interface enhanced the overall user experience, while the strategic SEO efforts resulted in improved search engine rankings. The project met all its objectives, leading to increased traffic, higher customer engagement, and a boost in appointments through the online booking system.",
         "link": "https://calvinstudio.no"
     }
