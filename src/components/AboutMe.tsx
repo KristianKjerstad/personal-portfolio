@@ -26,7 +26,7 @@ export const AboutMe = () => {
         <div>
             {' '}
             <img
-                className="m-auto object-fill h-96 w-96"
+                className="m-auto object-fill h-76 w-96"
                 src={profilePicture}
             ></img>
             <h2 className="text-4xl pt-16 pb-2">Hi there! I'm Kristian</h2>
