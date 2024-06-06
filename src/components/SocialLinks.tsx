@@ -10,6 +10,7 @@ export const SocialLinks = () => {
                 href="https://www.linkedin.com/in/kristian-kjerstad-2a7845138/"
                 target="_blank"
                 className="LinkedIn"
+                aria-label="Linkedin"
             >
                 <FaLinkedin size={iconSize} />
             </a>
@@ -17,6 +18,7 @@ export const SocialLinks = () => {
                 href="https://github.com/KristianKjerstad"
                 target="_blank"
                 className="Github"
+                aria-label="Github"
             >
                 <FaGithub size={iconSize} />
             </a>
@@ -24,6 +26,7 @@ export const SocialLinks = () => {
                 href="https://kristiankjerstad.github.io/personal-portfolio/"
                 target="_blank"
                 className="Homepage"
+                aria-label="Homepage"
             >
                 <TbWorld size={iconSize} />
             </a>
@@ -31,6 +34,7 @@ export const SocialLinks = () => {
                 href="https://www.instagram.com/kristian.kjerstad/"
                 target="_blank"
                 className="Instagram"
+                aria-label="Instagram"
             >
                 <FaInstagram size={iconSize} />
             </a>
