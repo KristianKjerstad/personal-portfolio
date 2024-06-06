@@ -3,6 +3,7 @@ import '../styles/TextSphere.css'
 
 // Importing TagCloud package
 import TagCloud from 'TagCloud'
+import { LARGE_SCREEN_SIZE, getWindowDimensions } from '../utils'
 
 const texts = [
     'HTML',
@@ -23,17 +24,9 @@ const texts = [
     'Azure',
 ]
 
-function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window
-    return {
-        width,
-        height,
-    }
-}
-
 const TextShpere = () => {
     const windowDimensions = getWindowDimensions()
-    const textRadius = windowDimensions.width > 400 ? 300 : 150
+    const textRadius = windowDimensions.width > LARGE_SCREEN_SIZE ? 300 : 150
 
     console.log(windowDimensions)
     // Animation settings for Text Cloud
