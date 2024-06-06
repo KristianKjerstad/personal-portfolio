@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { TbWorld } from 'react-icons/tb'
 
 export const SocialLinks = () => {
@@ -26,6 +26,13 @@ export const SocialLinks = () => {
                 className="Homepage"
             >
                 <TbWorld size={iconSize} />
+            </a>
+            <a
+                href="https://www.instagram.com/kristian.kjerstad/"
+                target="_blank"
+                className="Instagram"
+            >
+                <FaInstagram size={iconSize} />
             </a>
         </div>
     )
