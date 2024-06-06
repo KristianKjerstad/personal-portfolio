@@ -26,38 +26,45 @@ const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
 }
 
 function App() {
-    const windowDimensions = getWindowDimensions()
-
     return (
-        <div id="home" className="p-4 pl-8 pr-8 pb-12">
+        <div id="home" className="p-4 pl-8 pr-8 pb-12 lg:pl-28 lg:pr-28 ">
             <Header />
-            <div className="flex">
-                <div>
-                    <h3 className="text-3xl pb-2 color-yellow">Hello, I'm</h3>
+            <div className="grid grid-cols-2 lg:pr-0">
+                <div className="grid-cols-1 ">
+                    <div>
+                        <h3 className="text-3xl pb-2 color-yellow">
+                            Hello, I'm
+                        </h3>
 
-                    <h1 className="text-8xl pb-4 font-semibold">
-                        Kristian Kjerstad
-                    </h1>
-                    <h2 className="text-4xl pb-4 opacity-70">Web developer</h2>
+                        <h1 className="text-8xl pb-4 pr-32 font-semibold">
+                            Kristian Kjerstad
+                        </h1>
+                        <h2 className="text-4xl pb-4 opacity-70">
+                            Web developer
+                        </h2>
+                    </div>
+                    <ButtonMailto
+                        email="kristian.kjerstad@brilliant.no"
+                        label="Contact me"
+                    />
                 </div>
-                {windowDimensions.width > SCREEN_SIZE_PROFILE_IMAGE_LIMIT && (
+                <div className="grid-cols-2">
                     <img
-                        className="ml-auto align-centers object-fill h-64 w-62 opacity-80"
+                        className="opacity-80 h-0 lg:h-full "
                         src={profilePicture}
                         alt="profile picture"
                     ></img>
-                )}
+                </div>
             </div>
-            <ButtonMailto
-                email="kristian.kjerstad@brilliant.no"
-                label="Contact me"
-            />
             <div id="about-me"></div>
             <SectionDivider title="About me" />
             <AboutMe />
+
             <div id="skills"></div>
             <SectionDivider title="Skills" />
-            {/* <TextShpere /> */}
+            <div className="opacity-10 -mb-96">
+                <TextShpere />
+            </div>
             <Skills />
             <SectionDivider title="Résumé" />
             <Resume />

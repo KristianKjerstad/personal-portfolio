@@ -3,7 +3,6 @@ import profilePicture from '/public/profile.webp'
 import { MdWork } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
 import React from 'react'
-import { SCREEN_SIZE_PROFILE_IMAGE_LIMIT, getWindowDimensions } from '../utils'
 
 type InfoItem = {
     text: string
@@ -12,8 +11,6 @@ type InfoItem = {
 
 export const AboutMe = () => {
     const paragraphStyle = 'opacity-70 pt-4 lg:text-xl text-xl'
-
-    const windowDimensions = getWindowDimensions()
     const items: InfoItem[] = [
         { text: 'Trondheim, Norway', icon: <FaHome /> },
         { text: 'Norwegian, English', icon: <FaLanguage /> },
@@ -27,13 +24,12 @@ export const AboutMe = () => {
 
     return (
         <div>
-            {windowDimensions.width < SCREEN_SIZE_PROFILE_IMAGE_LIMIT && (
-                <img
-                    className="m-auto object-fill h-76 w-96 opacity-80"
-                    src={profilePicture}
-                    alt="Profile picture"
-                ></img>
-            )}
+            <img
+                className="m-auto object-fill h-76 w-96 opacity-80 lg:h-0"
+                src={profilePicture}
+                alt="Profile picture"
+            ></img>
+
             <ul className="pb-4 pt-12">
                 {items.map((item, index) => (
                     <li key={index} className="flex items-center mb-2">

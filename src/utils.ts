@@ -8,4 +8,4 @@ export function getWindowDimensions() {
 
 export const LARGE_SCREEN_SIZE = 400
 
-export const SCREEN_SIZE_PROFILE_IMAGE_LIMIT = 900
+export const SCREEN_SIZE_PROFILE_IMAGE_LIMIT = 1200

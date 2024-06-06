@@ -28,7 +28,6 @@ const TextShpere = () => {
     const windowDimensions = getWindowDimensions()
     const textRadius = windowDimensions.width > LARGE_SCREEN_SIZE ? 300 : 150
 
-    console.log(windowDimensions)
     // Animation settings for Text Cloud
     useEffect(() => {
         const container = document.querySelector('.tagcloud') as any
