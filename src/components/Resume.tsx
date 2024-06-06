@@ -1,6 +1,6 @@
 import { Text, Timeline } from '@mantine/core'
 import '@mantine/core/styles/Timeline.css'
-import { FaBriefcase, FaRProject, FaSchool } from 'react-icons/fa'
+import { FaBriefcase, FaSchool } from 'react-icons/fa'
 
 export const Resume = () => {
     return (

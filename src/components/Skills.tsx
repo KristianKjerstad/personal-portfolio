@@ -1,11 +1,4 @@
-import {
-    Button,
-    Chip,
-    Divider,
-    Overlay,
-    Progress,
-    TextInput,
-} from '@mantine/core'
+import { Progress } from '@mantine/core'
 import { useMemo, useState } from 'react'
 
 const skills = [
