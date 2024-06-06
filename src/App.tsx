@@ -7,7 +7,7 @@ import { ProjectExperience } from './components/ProjectExperience'
 import { SocialLinks } from './components/SocialLinks'
 import { Link } from 'react-router-dom'
 import { SCREEN_SIZE_PROFILE_IMAGE_LIMIT, getWindowDimensions } from './utils'
-import profilePicture from '/public/profile.jpeg'
+import profilePicture from '/public/profile.webp'
 
 const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
     return (
