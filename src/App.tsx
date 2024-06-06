@@ -2,7 +2,6 @@ import { Header } from './components/Header'
 import './styles/App.css'
 import { SectionDivider } from './components/SectionDivider'
 import { AboutMe } from './components/AboutMe'
-import TextShpere from './components/TextSphere'
 import { ProjectExperience } from './components/ProjectExperience'
 import { SocialLinks } from './components/SocialLinks'
 import { Link } from 'react-router-dom'
@@ -61,9 +60,9 @@ function App() {
 
             <div id="skills"></div>
             <SectionDivider title="Skills" />
-            <div className="opacity-10 -mb-96">
+            {/* <div className="opacity-10 -mb-96">
                 <TextShpere />
-            </div>
+            </div> */}
             <Skills />
             <SectionDivider title="Résumé" />
             <Resume />

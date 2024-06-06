@@ -69,7 +69,7 @@ export const Resume = () => {
                                 Senior IT Consultant
                             </Text>
                             <Text c="dimmed" size="m">
-                                2020 - present
+                                2023 - present
                             </Text>
                         </Timeline.Item>
 
