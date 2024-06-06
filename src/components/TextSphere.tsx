@@ -23,13 +23,25 @@ const texts = [
     'Azure',
 ]
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window
+    return {
+        width,
+        height,
+    }
+}
+
 const TextShpere = () => {
+    const windowDimensions = getWindowDimensions()
+    const textRadius = windowDimensions.width > 400 ? 300 : 150
+
+    console.log(windowDimensions)
     // Animation settings for Text Cloud
     useEffect(() => {
         const container = document.querySelector('.tagcloud') as any
 
         const options: any = {
-            radius: 300,
+            radius: textRadius,
             maxSpeed: 'normal',
             initSpeed: 'normal',
             keep: true,
