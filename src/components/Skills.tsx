@@ -66,6 +66,7 @@ export const Skills = () => {
                             size="sm"
                             transitionDuration={200}
                             striped
+                            animated
                         />
                     </div>
                 )

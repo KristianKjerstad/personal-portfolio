@@ -54,9 +54,9 @@ export const AboutMe = () => {
                 Kristian is a versatile full-stack developer. He has experience
                 and knowledge in various technologies, including React,
                 HTML/CSS, JavaScript, TypeScript, Python, Docker and Microsoft
-                Azure.{' '}
+                Azure.
             </p>
-            <p className={paragraphStyle}>
+            {/* <p className={paragraphStyle}>
                 Through previous projects, Kristian has gained considerable
                 experience in building modern applications and learned how cloud
                 solutions can be utilized for scalability, security, and cost
@@ -65,7 +65,7 @@ export const AboutMe = () => {
                 ranging from CI/CD pipelines to automated testing, and
                 emphasizes the importance of writing thorough documentation when
                 needed.
-            </p>
+            </p> */}
         </div>
     )
 }

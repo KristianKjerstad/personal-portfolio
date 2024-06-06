@@ -21,6 +21,7 @@ export const ProjectExperience = () => {
                             name={project.name}
                             skills={project.skills}
                             imageSource={project.imageSource}
+                            description={project.description}
                         />
                     </div>
                 )
