@@ -1,4 +1,4 @@
-import logo from '../assets/logo-white.png'
+import logo from '/public/logo-white.png'
 import { slide as Menu } from 'react-burger-menu'
 import { HashLink } from 'react-router-hash-link'
 import '../styles/Header.css'

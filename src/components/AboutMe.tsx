@@ -1,5 +1,5 @@
 import { FaHome, FaLanguage, FaCalendarDay } from 'react-icons/fa'
-import profilePicture from '../assets/profile.jpeg'
+import profilePicture from '/public/profile.jpeg'
 import { MdWork } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
 import React from 'react'

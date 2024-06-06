@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('../assets/crop-stars-bluetone.jpeg');
+    background-image: url('/public/crop-stars-bluetone.jpeg');
     background-size: cover;
     background-color: var(--black);
     background-repeat: no-repeat;
