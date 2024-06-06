@@ -8,6 +8,7 @@ export const Header = () => {
     return (
         <div className="pb-16">
             <img
+                alt="Logo"
                 className="cursor-pointer"
                 src={logo}
                 width="200"

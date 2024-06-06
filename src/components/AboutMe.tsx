@@ -31,6 +31,7 @@ export const AboutMe = () => {
                 <img
                     className="m-auto object-fill h-76 w-96"
                     src={profilePicture}
+                    alt="Profile picture"
                 ></img>
             )}
             <ul className="pb-4 pt-12">

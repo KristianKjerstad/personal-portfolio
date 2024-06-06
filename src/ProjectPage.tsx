@@ -49,6 +49,7 @@ export const ProjectPage = () => {
                     <img
                         className="m-auto lg:object-fill lg:h-1/2 lg:w-1/2"
                         src={project.imageSource}
+                        alt="Project picture"
                     ></img>
                 </a>
 

@@ -42,6 +42,7 @@ function App() {
                     <img
                         className="ml-auto align-centers object-fill h-64 w-62"
                         src={profilePicture}
+                        alt="profile picture"
                     ></img>
                 )}
             </div>
