@@ -29,7 +29,7 @@ export const AboutMe = () => {
         <div>
             {windowDimensions.width < SCREEN_SIZE_PROFILE_IMAGE_LIMIT && (
                 <img
-                    className="m-auto object-fill h-76 w-96"
+                    className="m-auto object-fill h-76 w-96 opacity-80"
                     src={profilePicture}
                     alt="Profile picture"
                 ></img>

@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom'
 import { SCREEN_SIZE_PROFILE_IMAGE_LIMIT, getWindowDimensions } from './utils'
 import profilePicture from '/public/profile.webp'
 import { Skills } from './components/Skills'
+import { Resume } from './components/Resume'
 
 const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
     return (
@@ -41,7 +42,7 @@ function App() {
                 </div>
                 {windowDimensions.width > SCREEN_SIZE_PROFILE_IMAGE_LIMIT && (
                     <img
-                        className="ml-auto align-centers object-fill h-64 w-62"
+                        className="ml-auto align-centers object-fill h-64 w-62 opacity-80"
                         src={profilePicture}
                         alt="profile picture"
                     ></img>
@@ -58,7 +59,8 @@ function App() {
             <SectionDivider title="Skills" />
             {/* <TextShpere /> */}
             <Skills />
-
+            <SectionDivider title="Résumé" />
+            <Resume />
             <SectionDivider title="Project Experience" />
             <ProjectExperience />
             <div id="Social"></div>
