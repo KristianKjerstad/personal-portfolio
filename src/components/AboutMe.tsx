@@ -18,7 +18,7 @@ export const AboutMe = () => {
             text: 'Senior IT consultant at Brilliant AS',
             icon: <MdWork />,
         },
-        { text: 'kristian.kjerstad@brilliant.no', icon: <MdEmail /> },
+        // { text: 'kristian.kjerstad@brilliant.no', icon: <MdEmail /> },
         { text: '20th April, 1996', icon: <FaCalendarDay /> },
     ]
 
