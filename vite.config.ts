@@ -5,7 +5,7 @@ import tailwindcss from 'tailwindcss'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    base: '/personal-portfolio/',
+    base: process.env.VITE_BASE_PATH || '/personal-portfolio/',
     css: {
         postcss: {
             plugins: [tailwindcss()],
