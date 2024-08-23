@@ -11,6 +11,7 @@ import { Resume } from './components/Resume'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 
 const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
     return (
@@ -34,6 +35,7 @@ function App() {
 
     return (
         <div id="home" className="">
+            <Analytics />
             <Header />
             <div className="grid grid-cols-2 lg:pr-0">
                 <div className="grid-cols-1 pt-24 pl-4 md:pl-20 lg:pl-60"  >
