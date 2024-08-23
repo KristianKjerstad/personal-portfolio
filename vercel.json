@@ -7,14 +7,5 @@
         "use": "@vercel/static-build",
         "config": { "distDir": "dist" }
       }
-    ],
-    "routes": [
-        { "handle": "filesystem" }
-    ],
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
     ]
   }
