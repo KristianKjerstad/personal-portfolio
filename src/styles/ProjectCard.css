@@ -1,3 +1,7 @@
+.main-container {
+    background-image: linear-gradient(to right bottom, #1b1b1b, #1a191d, #17181f, #141722, #0f1624);
+}
+
 .card {
     /* width: 80vw; */
     max-width: 600px;
@@ -6,11 +10,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     text-align: center;
-    background-color: var(--dark-gray);
+    /* background: var(--dark-gray); */
+    
 }
 
 .image-container {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
 }
 
 .image {
@@ -18,9 +23,10 @@
     height: 100%;
     padding: var(--medium-px);
     object-fit: cover;
-    background-color: var(--dark-gray);
+    /* background-color: var(--dark-gray); */
 }
 
 .skills-container {
     padding: var(--medium-px);
+    
 }

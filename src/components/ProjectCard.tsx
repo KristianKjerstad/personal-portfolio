@@ -13,15 +13,14 @@ const ProjectCard = (props: Project) => {
     const navigate = useNavigate()
 
     return (
-        <div>
+        <div className=''>
             <div
-                className="card cursor-pointer"
+                className="card cursor-pointer main-container"
                 onClick={() => {
-                    console.log('test')
                     navigate(`/projects/${projectName}`)
                 }}
             >
-                <div className="image-container">
+                <div className="image-container ">
                     <img src={imageSrc} alt="Project" className="image" />
                 </div>
                 <h3 className="text-2xl pt-2">{projectName}</h3>
