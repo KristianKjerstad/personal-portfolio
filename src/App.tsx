@@ -79,6 +79,7 @@ function App() {
                 <Skills />
                 <SectionDivider title="Résumé" />
                 <Resume />
+                <div id="project-experience"></div>
                 <SectionDivider title="Project Experience" />
                 <ProjectExperience />
                 <div id="Social"></div>
