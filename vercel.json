@@ -8,6 +8,9 @@
         "config": { "distDir": "dist" }
       }
     ],
+    "routes": [
+        { "handle": "filesystem" }
+    ],
     "rewrites": [
       {
         "source": "/(.*)",
