@@ -1,12 +1,19 @@
 import { Text, Timeline } from '@mantine/core'
 import '@mantine/core/styles/Timeline.css'
 import { FaBriefcase, FaSchool } from 'react-icons/fa'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 export const Resume = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
+
     return (
         <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 auto-rows-max ">
-                <div className="col-span-1">
+                <div className="col-span-1" data-aos="fade-right" data-aos-delay={500}>
                     <div className="pl-0 pb-2 text-2xl font-semibold flex gap-4">
                         <FaSchool className="opacity-50" />
                         <p>Education</p>
@@ -50,7 +57,7 @@ export const Resume = () => {
                     </Timeline>
                 </div>
                 {/* <div className="pt-12"></div> */}
-                <div className="col-span-1">
+                <div className="col-span-1" data-aos="fade-left">
                     <div className="pl-0 pb-2 text-2xl flex gap-4 font-semibold">
                         <FaBriefcase className="opacity-50" />
                         <p>Work Experience</p>

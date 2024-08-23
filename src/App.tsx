@@ -8,6 +8,9 @@ import { Link } from 'react-router-dom'
 import profilePicture from '/public/profilev2.webp'
 import { Skills } from './components/Skills'
 import { Resume } from './components/Resume'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
     return (
@@ -24,43 +27,37 @@ const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
 }
 
 function App() {
+
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
+
     return (
         <div id="home" className="">
             <Header />
-            {/* <div className='grid grid-cols-2 pb-80'>
-                <img
-                    className='h-full w-full'
-                    src={profilePicture}
-                    alt="profile picture"
-                ></img>
-                <div className='flex justify-end'>
-                    <img
-                        className='h-[80%] w-[80%] '
-                        src={profilePicture}
-                        alt="profile picture"
-                    ></img>
-                </div>
-            </div> */}
             <div className="grid grid-cols-2 lg:pr-0">
-                <div className="grid-cols-1 pt-24 pl-60">
+                <div className="grid-cols-1 pt-24 pl-60"  >
                     <div>
-                        <h3 className="text-3xl pb-4 color-yellow">
+                        <h3 className="text-3xl pb-4 color-yellow" data-aos="fade-down">
                             Hello, I'm
                         </h3>
 
-                        <h1 className="text-8xl pb-7 pr-32 font-semibold">
+                        <h1 className="text-8xl pb-7 pr-32 font-semibold" data-aos="fade-down" data-aos-delay={100}>
                             Kristian Kjerstad
                         </h1>
-                        <h2 className="text-4xl pb-8 opacity-70">
+                        <h2 className="text-4xl pb-8 opacity-70" data-aos="fade-down" data-aos-delay={200}>
                             Web developer
                         </h2>
                     </div>
-                    <ButtonMailto
-                        email="kristian.kjerstad@brilliant.no"
-                        label="Contact me"
-                    />
+                    <div data-aos="fade-down" data-aos-delay={300}>
+                        <ButtonMailto
+
+                            email="kristian.kjerstad@brilliant.no"
+                            label="Contact me"
+                        />
+                    </div>
                 </div>
-                <div className="grid-cols-2 lg:-mb-12 xl:-mt-12 flex justify-end">
+                <div className="grid-cols-2 lg:-mb-12 xl:-mt-12 flex justify-end" data-aos="fade-left" data-aos-delay={400}>
                     <img
                         className='h-0 w-0 lg:h-[100%] lg:max-h-[850px] lg:max-w-[400px] lg:w-[100%] lg:object-cover xl:h-[100%] xl:max-h-[850px] xl:max-w-[4000px] xl:w-[100%] xl:object-cover'
                         src={profilePicture}
@@ -71,8 +68,9 @@ function App() {
             <div className='p-4 pl-8 pr-8 pb-12 lg:pl-40 lg:pr-40 xl:pl-60 xl:pr-60 '>
                 <div id="about-me"></div>
                 <SectionDivider title="About me" />
-                <AboutMe />
-
+                <div >
+                    <AboutMe />
+                </div>
                 <div id="skills"></div>
                 <SectionDivider title="Skills" />
                 {/* <div className="opacity-10 -mb-96">

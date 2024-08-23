@@ -1,6 +1,7 @@
 import { Progress } from '@mantine/core'
-import { useMemo, useState } from 'react'
-
+import { useEffect, useMemo, useState } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const skills = [
     { name: 'React', percentage: 86 },
     { name: 'Typescript', percentage: 77 },
@@ -35,6 +36,9 @@ const skills = [
 
 export const Skills = () => {
     const [isExpanded, setIsExpanded] = useState<boolean>(false)
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
 
     const skillsToMap = useMemo(() => {
         if (isExpanded) {
@@ -51,7 +55,7 @@ export const Skills = () => {
             </h2> */}
             {skillsToMap.map((skill) => {
                 return (
-                    <div className="pb-4 text-xl">
+                    <div className="pb-4 text-xl" data-aos="fade-up">
                         <p>{skill.name}</p>
                         <Progress
                             color="yellow"
