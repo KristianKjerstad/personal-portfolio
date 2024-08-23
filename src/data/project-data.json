@@ -42,7 +42,7 @@
     {
         "name": "Virtual Carer Companion",
         "skills": ["Python", "Django", "React Native", "TypeScript"],
-        "imageSource": "",
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/vcc.webp",
         "description": "Virtual Carer Companion is a mobile application developed with React Native, designed to document visits from private caregivers in England. The application records video of the visit and flags events for attention by the shift supervisor. Additionally, the app features voice-enabled visit reporting and the option for a video call with a qualified shift leader when additional assistance is needed. The solution also included a web application, developed with React, TypeScript, and Vite, where a shift leader can log in and get an overview of all caregivers, patients, and home visits. In this web application, the shift leader can also receive incoming video calls from caregivers who require assistance. In addition to the web and mobile applications, a Python REST API was developed using Django and Django Rest Framework to handle the storage and retrieval of metadata and video files.",
         "date": "October 2023 - June 2024",
         "year": "2023-2024",
@@ -52,7 +52,7 @@
     {
         "name": "De4rm",
         "skills": ["Python", "FastAPI", "React", "TypeScript"],
-        "imageSource": "",
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/de4rm.webp",
         "description": "De4rm is an application for editing 3D models of oil reservoirs. The project involved migrating an existing MATLAB application to a web application. The application is used to go through a step-by-step process for editing the reservoir model, with both the user interface and performance improved compared to the original MATLAB application. The frontend of this project was developed as a React web application with TypeScript. In this application, users can navigate through a workflow to prepare models for simulation. Additionally, the solution included a Python API, created with the FastAPI framework, to perform calculations and communicate with a MongoDB database set up with Azure. The API codebase adhered to Clean Architecture principles, and the project methodology was heavily inspired by DevOps principles.",
         "date": "April 2021 - May 2023",
         "year": "2021-2023",
@@ -62,7 +62,7 @@
     {
         "name": "Development Framework",
         "skills": ["Python", "Flask", "React", "TypeScript"],
-        "imageSource": "",
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/development-framework.webp",
         "description": "Development Framework is a tool used by engineers to create their own web applications based on models. These models are written as JSON files that adhere to the JSON schema standard. A typical use case for the Development Framework is for an engineer to build a custom web application for running simulations and visualizing simulation results in a dashboard. The solution consisted of two main components: a Python REST API (developed with the FastAPI framework), with the codebase following Clean Architecture principles. The other component was a web application written in TypeScript and React. Additionally, MongoDB was used as the database. The application runs on Microsoft Azure, and Docker is used to containerize both the API and the web application. DevOps practices were heavily utilized in the project, with a strong focus on automation, rapid deployment of new versions, code quality, and code reviews.",
         "date": "March 2021 - August 2023",
         "year": "2021-2023",
@@ -72,7 +72,7 @@
     {
         "name": "Lost Circulation Material ",
         "skills": ["Python", "FastAPI", "React", "TypeScript"],
-        "imageSource": "",
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/lcm.webp",
         "description": "Lost Circulation Material (LCM) is a web application designed to create and compare optimal mixtures of materials added to drilling fluids during well drilling. Finding the correct material composition is crucial for sealing fractures and preventing leaks. The optimization problem was addressed using a genetic algorithm, a type of machine learning algorithm based on Darwinian evolution theory. The web application was implemented using React and TypeScript. Additionally, a REST API was developed using the Flask framework in Python. The Azure cloud platform was used for both authentication (with Azure AD) and data storage with Azure File Storage. The web application also integrated data on various materials from SharePoint Online. In April 2021, the application was deployed on the Johan Sverdrup field and has received very positive feedback from users.",
         "date": "January 2021 - May 2021",
         "year": "2021",
@@ -82,7 +82,7 @@
     {
         "name": "KFG Application Processing",
         "skills": ["React", "TypeScript", "Azure Functions"],
-        "imageSource": "",
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/kfg.webp",
         "description": "Trøndelag County Municipality needed a web application for viewing and processing applications for work along county roads in Trøndelag. Previously, an Excel spreadsheet was used to track submitted applications, which became unwieldy for the municipal application handlers. The solution consisted of a web application developed with TypeScript and React, along with a corresponding API written in .NET Entity Framework Core 3.1. Infrastructure as code was used in the project to easily set up the environment in Azure. The Azure environment included a web application hosted with Azure Web Apps, a PostgreSQL database in Azure Cosmos DB, and a REST API. Azure Functions were also used to periodically update the database. The solution was developed following DevOps principles and was well received by the client. Based on this pilot project, Trøndelag County Municipality expressed interest in developing a full-scale solution.", 
         "date": "November 2020 - December 2020",
         "year": "2020",
