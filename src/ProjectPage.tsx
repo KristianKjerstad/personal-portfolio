@@ -40,8 +40,9 @@ export const ProjectPage = () => {
     return (
         <div className="">
             <Header />
-            <div className="text-center pt-8 pl-8 pr-8 pb-12 lg:pl-40 lg:pr-40 xl:pl-60 xl:pr-60">
-                <h1 className="text-6xl pb-24 font-semibold">{projectName}</h1>
+            <div className="text-center pt-8 pl-8 pr-8 lg:pl-40 lg:pr-40 xl:pl-60 xl:pr-60">
+                <h1 className="text-6xl pb-8 font-semibold">{projectName}</h1>
+                <p className='pb-16 text-xl'>{project.date}</p>
                 <a
                     href={project.link}
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -53,9 +54,10 @@ export const ProjectPage = () => {
                     ></img>
                 </a>
 
-                <div className="pt-6 text-xl font-bold color-yellow">
+                <div className="pt-12 text-xl font-bold color-yellow">
                     <p>{project.skills.join(' | ')}</p>
                 </div>
+                <h2 className="pt-6 text-2xl font-semibold">Role: {project.roles}</h2>
                 <p className="pt-16 text-xl color-yellow text-left">
                     {formatDescription(project.description).map(
                         (paragraph: string) => {
@@ -68,6 +70,7 @@ export const ProjectPage = () => {
                         }
                     )}
                 </p>
+                <div className='pb-24'></div>
             </div>
         </div>
     )
