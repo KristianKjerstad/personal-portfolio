@@ -36,7 +36,7 @@ function App() {
         <div id="home" className="">
             <Header />
             <div className="grid grid-cols-2 lg:pr-0">
-                <div className="grid-cols-1 pt-24 pl-60"  >
+                <div className="grid-cols-1 pt-24 pl-4 md:pl-20 lg:pl-60"  >
                     <div>
                         <h3 className="text-3xl pb-4 color-yellow" data-aos="fade-down">
                             Hello, I'm
@@ -46,7 +46,7 @@ function App() {
                             Kristian Kjerstad
                         </h1>
                         <h2 className="text-4xl pb-8 opacity-70" data-aos="fade-down" data-aos-delay={200}>
-                            Web developer
+                            Fullstack developer
                         </h2>
                     </div>
                     <div data-aos="fade-down" data-aos-delay={300}>

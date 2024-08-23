@@ -4,6 +4,9 @@
         "skills": ["Web hosting", "Wordpress", "Design"],
         "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/lan-na-project.webp",
         "description": "Lan Na Thai Restaurant is a vibrant dining destination in Trondheim, Norway, offering an authentic Thai culinary experience. In 2021, the restaurant launched a project to develop a visually impactful website that would enhance its online presence, attract new customers, and provide essential information to its patrons. \nThe restaurant website successfully established the restaurant's online presence, making it easier for potential customers to find and engage with the restaurant. The visually striking design and user-friendly interface enhanced the overall user experience, while the integration of Google Analytics provided valuable insights for marketing strategies. The project met all its objectives, leading to increased traffic, higher customer engagement, and a boost in reservations through the online contact form.",
+        "date": "August 2021 - September 2021",
+        "year": "2021",
+        "roles": ["Web Developer"],
         "link": "https://lan-na.no"
     },
     {
@@ -11,6 +14,81 @@
         "skills": ["Web hosting", "Wordpress", "Design"],
         "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/cs-project.webp",
         "description": "Calvin Studio is a premier hair salon in the vibrant city of Trondheim, Norway. The salon aims to provide top-tier hair care and styling services, combining artistic flair with professional expertise. In 2022, the salon embarked on a project to create an engaging and visually stunning website that would enhance its online presence, attract new clients, and provide valuable information to existing customers.\nThe Calvin Studio website successfully established the salon's online presence, making it easier for potential clients to find and engage with the salon. The visually appealing design and user-friendly interface enhanced the overall user experience, while the strategic SEO efforts resulted in improved search engine rankings. The project met all its objectives, leading to increased traffic, higher customer engagement, and a boost in appointments through the online booking system.",
+        "date": "April 2023 - June 2023",
+        "year": "2023",
+        "roles": ["Web Developer"],
         "link": "https://calvinstudio.no"
+    },
+    {
+        "name": "Website for PB Tattoo Studio",
+        "skills": ["Web hosting", "Wordpress", "Design"],
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/pb-tattoo.webp",
+        "description": "",
+        "date": "May 2024 - June 2024",
+        "year": "2024",
+        "roles": ["Web Developer"],
+        "link": "https://pb-tattoostudio.no"
+    },
+    {
+        "name": "Dashboard for Trondheim Marathon",
+        "skills": ["Python", "Django", "PostgreSQL"],
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/maraton-dashboard.webp",
+        "description": "In connection with the launch of new websites for Trondheim Marathon, a dedicated dashboard was developed to display statistics for registered participants.",
+        "date": "August 2024",
+        "year": "2024",
+        "roles": ["Backend Developer"],
+        "link": "https://www.trondheimmaraton.no/loperdata"
+    },
+    {
+        "name": "Virtual Carer Companion",
+        "skills": ["Python", "Django", "React Native", "TypeScript"],
+        "imageSource": "",
+        "description": "Virtual Carer Companion is a mobile application developed with React Native, designed to document visits from private caregivers in England. The application records video of the visit and flags events for attention by the shift supervisor. Additionally, the app features voice-enabled visit reporting and the option for a video call with a qualified shift leader when additional assistance is needed. The solution also included a web application, developed with React, TypeScript, and Vite, where a shift leader can log in and get an overview of all caregivers, patients, and home visits. In this web application, the shift leader can also receive incoming video calls from caregivers who require assistance. In addition to the web and mobile applications, a Python REST API was developed using Django and Django Rest Framework to handle the storage and retrieval of metadata and video files.",
+        "date": "October 2023 - June 2024",
+        "year": "2023-2024",
+        "roles": ["Fullstack Developer"],
+        "link": "https://www.trondheimmaraton.no/loperdata"
+    },
+    {
+        "name": "De4rm",
+        "skills": ["Python", "FastAPI", "React", "TypeScript"],
+        "imageSource": "",
+        "description": "De4rm is an application for editing 3D models of oil reservoirs. The project involved migrating an existing MATLAB application to a web application. The application is used to go through a step-by-step process for editing the reservoir model, with both the user interface and performance improved compared to the original MATLAB application. The frontend of this project was developed as a React web application with TypeScript. In this application, users can navigate through a workflow to prepare models for simulation. Additionally, the solution included a Python API, created with the FastAPI framework, to perform calculations and communicate with a MongoDB database set up with Azure. The API codebase adhered to Clean Architecture principles, and the project methodology was heavily inspired by DevOps principles.",
+        "date": "April 2021 - May 2023",
+        "year": "2021-2023",
+        "roles": ["Fullstack Developer"],
+        "link": ""
+    },
+    {
+        "name": "Development Framework",
+        "skills": ["Python", "Flask", "React", "TypeScript"],
+        "imageSource": "",
+        "description": "Development Framework is a tool used by engineers to create their own web applications based on models. These models are written as JSON files that adhere to the JSON schema standard. A typical use case for the Development Framework is for an engineer to build a custom web application for running simulations and visualizing simulation results in a dashboard. The solution consisted of two main components: a Python REST API (developed with the FastAPI framework), with the codebase following Clean Architecture principles. The other component was a web application written in TypeScript and React. Additionally, MongoDB was used as the database. The application runs on Microsoft Azure, and Docker is used to containerize both the API and the web application. DevOps practices were heavily utilized in the project, with a strong focus on automation, rapid deployment of new versions, code quality, and code reviews.",
+        "date": "March 2021 - August 2023",
+        "year": "2021-2023",
+        "roles": ["Fullstack Developer"],
+        "link": ""
+    },
+    {
+        "name": "Lost Circulation Material ",
+        "skills": ["Python", "FastAPI", "React", "TypeScript"],
+        "imageSource": "",
+        "description": "Lost Circulation Material (LCM) is a web application designed to create and compare optimal mixtures of materials added to drilling fluids during well drilling. Finding the correct material composition is crucial for sealing fractures and preventing leaks. The optimization problem was addressed using a genetic algorithm, a type of machine learning algorithm based on Darwinian evolution theory. The web application was implemented using React and TypeScript. Additionally, a REST API was developed using the Flask framework in Python. The Azure cloud platform was used for both authentication (with Azure AD) and data storage with Azure File Storage. The web application also integrated data on various materials from SharePoint Online. In April 2021, the application was deployed on the Johan Sverdrup field and has received very positive feedback from users.",
+        "date": "January 2021 - May 2021",
+        "year": "2021",
+        "roles": ["Fullstack Developer"],
+        "link": ""
+    },
+    {
+        "name": "KFG Application Processing",
+        "skills": ["React", "TypeScript", "Azure Functions"],
+        "imageSource": "",
+        "description": "Trøndelag County Municipality needed a web application for viewing and processing applications for work along county roads in Trøndelag. Previously, an Excel spreadsheet was used to track submitted applications, which became unwieldy for the municipal application handlers. The solution consisted of a web application developed with TypeScript and React, along with a corresponding API written in .NET Entity Framework Core 3.1. Infrastructure as code was used in the project to easily set up the environment in Azure. The Azure environment included a web application hosted with Azure Web Apps, a PostgreSQL database in Azure Cosmos DB, and a REST API. Azure Functions were also used to periodically update the database. The solution was developed following DevOps principles and was well received by the client. Based on this pilot project, Trøndelag County Municipality expressed interest in developing a full-scale solution.", 
+        "date": "November 2020 - December 2020",
+        "year": "2020",
+        "roles": ["Fullstack Developer"],
+        "link": ""
     }
+
+
 ]

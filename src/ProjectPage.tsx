@@ -38,16 +38,16 @@ export const ProjectPage = () => {
     }
 
     return (
-        <div className="p-4 pl-8 pr-8 pb-12">
+        <div className="">
             <Header />
-            <div className="text-center">
-                <h1 className="text-4xl pb-8 font-semibold">{projectName}</h1>
+            <div className="text-center pt-8 pl-8 pr-8 pb-12 lg:pl-40 lg:pr-40 xl:pl-60 xl:pr-60">
+                <h1 className="text-6xl pb-24 font-semibold">{projectName}</h1>
                 <a
                     href={project.link}
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                 >
                     <img
-                        className="m-auto lg:object-fill lg:h-1/2 lg:w-1/2"
+                        className="m-auto lg:object-fill lg:h-3/4 lg:w-3/4"
                         src={project.imageSource}
                         alt="Project picture"
                     ></img>

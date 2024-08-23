@@ -45,7 +45,7 @@ export const Resume = () => {
 
                         <Timeline.Item>
                             <Text size="xl" c="yellow">
-                                High school degree
+                                High School Degree
                             </Text>
                             <Text size="lg" mt={4}>
                                 Spjelkavik Videregående Skole

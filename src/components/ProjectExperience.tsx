@@ -7,6 +7,9 @@ export type Project = {
     name: string
     imageSource: string
     skills: string[]
+    date: string
+    year: string
+    roles: string[]
     description?: string
     link: string
 }
@@ -25,7 +28,7 @@ export const ProjectExperience = () => {
             {projects.map((project, index) => {
                 console.log(index)
                 return (
-                    <div className="flex justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={delay_start + (200 * index)}>
+                    <div className="flex justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={delay_start + (100 * index)}>
                         <ProjectCard
                             key={project.name}
                             link={project.link}
@@ -33,6 +36,9 @@ export const ProjectExperience = () => {
                             skills={project.skills}
                             imageSource={project.imageSource}
                             description={project.description}
+                            date={project.date}
+                            year={project.year}
+                            roles={project.roles}
                         />
                     </div>
                 )
