@@ -28,7 +28,7 @@ export const ProjectExperience = () => {
             {projects.map((project, index) => {
                 console.log(index)
                 return (
-                    <div className="flex justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={delay_start + (100 * index)}>
+                    <div className="flex justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={delay_start + (25 * index)}>
                         <ProjectCard
                             key={project.name}
                             link={project.link}
