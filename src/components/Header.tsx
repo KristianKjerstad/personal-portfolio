@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 export const Header = () => {
     const navigate = useNavigate()
     return (
-        <div className="pb-16">
+        <div className="pl-8 pt-8" >
             <img
                 alt="Logo"
                 className="cursor-pointer"
