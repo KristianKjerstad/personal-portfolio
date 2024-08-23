@@ -15,7 +15,7 @@ export const AboutMe = () => {
         { text: 'Trondheim, Norway', icon: <FaHome /> },
         { text: 'Norwegian, English', icon: <FaLanguage /> },
         {
-            text: 'Senior IT consultant at Brilliant AS',
+            text: 'Senior IT Consultant at Brilliant AS',
             icon: <MdWork />,
         },
         { text: 'kristian.kjerstad@brilliant.no', icon: <MdEmail /> },

@@ -46,7 +46,7 @@ function App() {
                             Kristian Kjerstad
                         </h1>
                         <h2 className="text-4xl pb-8 opacity-70" data-aos="fade-down" data-aos-delay={200}>
-                            Fullstack developer
+                            Fullstack Developer
                         </h2>
                     </div>
                     <div data-aos="fade-down" data-aos-delay={300}>
