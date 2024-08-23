@@ -36,7 +36,7 @@ export const Resume = () => {
                                 Norwegian University of Science and Technology
                                 (NTNU)
                             </Text>
-                            <Text c="dimmed" size="m">
+                            <Text c="dimmed" size="m" className='pb-8'>
                                 2015 - 2020
                             </Text>
 
@@ -75,7 +75,7 @@ export const Resume = () => {
                             <Text size="lg" mt={4}>
                                 Senior IT Consultant
                             </Text>
-                            <Text c="dimmed" size="m">
+                            <Text c="dimmed" size="m" className='pb-8'>
                                 2023 - present
                             </Text>
                         </Timeline.Item>
@@ -87,7 +87,7 @@ export const Resume = () => {
                             <Text size="lg" mt={4}>
                                 IT Consultant
                             </Text>
-                            <Text c="dimmed" size="m">
+                            <Text c="dimmed" size="m" className='pb-8'>
                                 2020 - 2023
                             </Text>
                         </Timeline.Item>
