@@ -10,7 +10,7 @@ import '@mantine/core/styles.layer.css'
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <MantineProvider>
-            <BrowserRouter basename="/personal-portfolio">
+            <BrowserRouter basename={import.meta.env.VITE_BASE_PATH || '/personal-portfolio/'}>
                 <Routes>
                     <Route path="/" Component={App} />
                     <Route
