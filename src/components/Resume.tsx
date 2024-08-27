@@ -12,8 +12,9 @@ export const Resume = () => {
 
     return (
         <div className="flex justify-center">
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 auto-rows-max ">
-                <div className="col-span-1" data-aos="fade-right" data-aos-delay={500}>
+                <div className="col-span-1" data-aos="fade-right" data-aos-delay={300}>
                     <div className="pl-0 pb-2 text-2xl font-semibold flex gap-4">
                         <FaSchool className="opacity-50" />
                         <p>Education</p>

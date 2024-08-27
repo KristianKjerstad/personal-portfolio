@@ -75,14 +75,13 @@ function App() {
                 </div>
                 <div id="skills"></div>
                 <SectionDivider title="Skills" />
-                {/* <div className="opacity-10 -mb-96">
-                <TextShpere />
-            </div> */}
                 <Skills />
                 <SectionDivider title="Résumé" />
                 <Resume />
                 <div id="project-experience"></div>
+
                 <SectionDivider title="Project Experience" />
+                <p className='text-xl text-center pb-12'>Visit my <a target="_blank" className="hover:underline" href="https://www.linkedin.com/in/kristian-kjerstad-2a7845138/">LinkedIn</a> profile for a complete overview of all projects.</p>
                 <ProjectExperience />
                 <div id="Social"></div>
                 <SectionDivider title="Social channels" />
