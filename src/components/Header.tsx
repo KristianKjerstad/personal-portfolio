@@ -69,6 +69,11 @@ export const Header = () => {
                     </HashLink>
                 </div>
                 <div>
+                    <HashLink smooth to="/#products">
+                        Produts Created
+                    </HashLink>
+                </div>
+                <div>
                     <HashLink smooth to="/#project-experience">
                         Project Experience
                     </HashLink>

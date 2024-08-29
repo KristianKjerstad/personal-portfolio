@@ -1,16 +1,19 @@
 import { useParams } from 'react-router-dom'
 import { Header } from './components/Header'
 import projects from './data/project-data.json'
+import products from './data/products-data.json'
 import { Project } from './components/ProjectExperience'
 
 const getProjectData = (
     projectName: string | undefined,
-    projects: Project[]
+    projects: Project[],
+    products: Project[]
 ) => {
     if (!projectName) {
         return null
     }
-    const project = projects.filter((project) => {
+    const projects_and_proucts = [...projects, ...products]
+    const project = projects_and_proucts.filter((project) => {
         return project.name === projectName
     })[0]
     return project
@@ -26,7 +29,7 @@ const formatDescription = (description: string | undefined): string[] => {
 
 export const ProjectPage = () => {
     const { projectName } = useParams()
-    const project: Project | null = getProjectData(projectName, projects)
+    const project: Project | null = getProjectData(projectName, projects, products)
 
     if (project === null) {
         return (
@@ -58,6 +61,7 @@ export const ProjectPage = () => {
                     <p>{project.skills.join(' | ')}</p>
                 </div>
                 <h2 className="pt-6 text-2xl font-semibold">Role: {project.roles}</h2>
+                {project.link && <h4 className="pt-6 text-xl font-semibold">Project link: <a href={project.link}>{project.link}</a></h4>}
                 <p className="pt-16 text-xl color-yellow text-left">
                     {formatDescription(project.description).map(
                         (paragraph: string) => {

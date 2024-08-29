@@ -41,7 +41,7 @@
     },
     {
         "name": "Virtual Carer Companion",
-        "skills": ["Python", "Django", "React Native", "TypeScript"],
+        "skills": ["Python", "Django", "React Native"],
         "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/vcc.webp",
         "description": "Virtual Carer Companion is a mobile application developed with React Native, designed to document visits from private caregivers in England. The application records video of the visit and flags events for attention by the shift supervisor. Additionally, the app features voice-enabled visit reporting and the option for a video call with a qualified shift leader when additional assistance is needed.\nThe solution also included a web application, developed with React, TypeScript, and Vite, where a shift leader can log in and get an overview of all caregivers, patients, and home visits. In this web application, the shift leader can also receive incoming video calls from caregivers who require assistance. In addition to the web and mobile applications, a Python REST API was developed using Django and Django Rest Framework to handle the storage and retrieval of metadata and video files.",
         "date": "October 2023 - June 2024",

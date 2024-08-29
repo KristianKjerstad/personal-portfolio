@@ -12,6 +12,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import { Analytics } from "@vercel/analytics/react"
+import { Products } from './components/Products'
 
 const ButtonMailto = ({ email, label }: { email: string; label: string }) => {
     return (
@@ -78,10 +79,12 @@ function App() {
                 <Skills />
                 <SectionDivider title="Résumé" />
                 <Resume />
+                <div id="products"></div>
+                <SectionDivider title="Products Created" />
+                <Products />
                 <div id="project-experience"></div>
-
                 <SectionDivider title="Project Experience" />
-                <p className='text-xl text-center pb-12'>Visit my <a target="_blank" className="hover:underline" href="https://www.linkedin.com/in/kristian-kjerstad-2a7845138/">LinkedIn</a> profile for a complete overview of all projects.</p>
+                <p className='text-xl text-center pb-12'>Visit my <a target="_blank" className="hover:underline" href="https://www.linkedin.com/in/kristian-kjerstad-2a7845138/">LinkedIn profile</a> for a complete overview of all projects.</p>
                 <ProjectExperience />
                 <div id="Social"></div>
                 <SectionDivider title="Social channels" />

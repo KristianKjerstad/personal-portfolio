@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Recipe Finder",
+        "skills": ["React", "Python", "TypeScript", "PostgreSQL"],
+        "imageSource": "https://kristiankjerstad.github.io/personal-portfolio/recipe-finder.webp",
+        "description": "Recipe Finder is a responsive, full stack web application where the user can select ingredients he has available, and search for what recipes he can make with those ingredients. Both cocktail and food recipes are available.\nIn this project, the frontend was created wtih React and TypeScript. The backend is a REST API made with Python and FastAPI.",
+        "date": "June 2024 - September 2024",
+        "year": "2024",
+        "roles": ["Fullstack Developer"],
+        "link": "https://recipe-app-frontend-ochre.vercel.app/"
+    }
+
+
+]
